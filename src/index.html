@@ -2,11 +2,52 @@
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
-    <title>Webpack</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Giant</title>
     <link rel="stylesheet" href="<%=htmlWebpackPlugin.files.css %>">
+    <link rel="icon" href="<%=require('./images/favicon.ico')%>" type="image/x-icon">
 </head>
 <body>
-    <h1>Hello</h1>
-    <script src="<%= htmlWebpackPlugin.files.js %>"></script>
+  <div class="page">
+    <section class="main">
+      <header class="header">
+        <a href="./index.html" class="header__logo">
+          <img class="header__logo-pic" src="<%=require('./images/favicon.ico')%>" alt="Логотип">
+          <h2 class="header__logo-text">Giant</h2>
+        </a>
+        <div class="header__panel">
+          <ul class="menu">
+            <li class="menu__item"><a href="./index.html" class="menu__link">Home</a></li>
+            <li class="menu__item"><a href="./index.html" class="menu__link">Features</a></li>
+            <li class="menu__item"><a href="./index.html" class="menu__link">Pricing</a></li>
+          </ul>
+          <button type="button" class="header__button">Download Now</button>
+        </div>
+      </header>
+      <div class="main__container">
+        <div class="main__text">
+          <h1 class="main__title">A Powerful & Unique</br>App Landing Template</h1>
+          <p class="main__paragraph">Lorem ipsum dolor sit amet, consectetur adipisising elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          <ul class="main__list">
+            <li class="main__item">
+              <div class="main__list-pic">✓</div>
+              <p class="main__list-text">Unlimited colors: banner with images, slider or video</p>
+            </li>
+            <li class="main__item">
+              <div class="main__list-pic">✓</div>
+              <p class="main__list-text">Fully Responsive and powered by HTML5 and CSS3</p>
+            </li>
+            <li class="main__item">
+              <div class="main__list-pic">✓</div>
+              <p class="main__list-text">Very easy to customize: set up in minutes</p>
+            </li>
+          </ul>
+        </div>
+        <img class="main__pic" src="<%=require('./images/phone.png')%>" alt="Картинка">
+      </div>
+    </section>
+  </div>
+  <script src="<%= htmlWebpackPlugin.files.js %>"></script>
 </body>
 </html>

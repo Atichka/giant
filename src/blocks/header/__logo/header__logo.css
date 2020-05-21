@@ -1,0 +1,8 @@
+.header__logo {
+  display: flex;
+  justify-content: space-between;
+  /* border: 1px solid black; */
+
+  text-decoration: none;
+	cursor: url(../../../images/Pointer.png), pointer;
+}

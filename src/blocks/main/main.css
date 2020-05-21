@@ -1,0 +1,14 @@
+@import url(./__pic/main__pic.css);
+@import url(./__container/main__container.css);
+@import url(./__title/main__title.css);
+@import url(./__item/main__item.css);
+@import url(./__list/main__list.css);
+@import url(./__list-pic/main__list-pic.css);
+@import url(./__list-text/main__list-text.css);
+@import url(./__paragraph/main__paragraph.css);
+
+.main {
+  background-image: linear-gradient(90deg, orange, rgb(248, 1, 42));
+  padding-left: 304px;
+  padding-bottom: 104px;
+}
