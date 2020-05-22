@@ -1,0 +1,7 @@
+@import url(./__item/list__item.css);
+@import url(./__pic/list__pic.css);
+
+.list {
+  display: block;
+  padding: 0;
+}

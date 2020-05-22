@@ -1,0 +1,10 @@
+@import url(./_white/list__pic_white.css);
+@import url(./_black/list__pic_black.css);
+
+.list__pic {
+  width: 20px;
+  height: 20px;
+  box-sizing: border-box;
+  border-radius: 35px;
+  margin-right: 15px;
+}

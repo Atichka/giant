@@ -2,7 +2,6 @@
 @import url(./__logo-pic/header__logo-pic.css);
 @import url(./__logo-text/header__logo-text.css);
 @import url(./__panel/header__panel.css);
-@import url(./__button/header__button.css);
 
 .header {
   /* border: 1px solid black; */
@@ -14,7 +13,7 @@
   text-align: center;
   justify-content: space-between;
   padding-top: 15px;
-  padding-right: 104px;
+  padding-right: 150px;
   padding-bottom: 15px;
 }
 

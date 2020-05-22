@@ -1,0 +1,7 @@
+.about__pic {
+  height: 50%;
+  width: auto;
+  border-radius: 100px;
+  border: 1px solid rgb(202, 201, 201);
+  padding: 25%;
+}

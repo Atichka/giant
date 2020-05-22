@@ -1,0 +1,11 @@
+@import url(./__white/paragraph__white.css);
+@import url(./__grey/paragraph__grey.css);
+
+.paragraph {
+  margin: 0;
+  font-family: 'Roboto', Arial, Helvetica, sans-serif;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 0.85rem;
+  line-height: 1.4rem;
+}

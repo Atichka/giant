@@ -1,0 +1,9 @@
+.title {
+  margin: 0 0 10px 0;
+  font-family: 'Roboto', Arial, Helvetica, sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 2rem;
+  line-height: 2.125rem;
+  color: black;
+}
