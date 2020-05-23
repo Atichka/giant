@@ -1,4 +1,11 @@
 .main__pic {
   height: auto;
   width: 100%;
+  /* border: 1px solid rgb(179, 253, 6); */
+}
+
+@media screen and (max-width: 375px) {
+  .main__pic {
+    display: none;
+  }
 }

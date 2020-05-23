@@ -1,4 +1,6 @@
 .header__logo-pic {
-  width: 64px;
-  height: 64px;
+  width: auto;
+  height: 100%;
 }
+
+

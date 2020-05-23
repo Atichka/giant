@@ -24,14 +24,16 @@
 
 @media screen and (max-width: 768px) {
   .button {
-    width: 180px;
-    height: 46px;
+    width: 100px;
+    height: 24px;
+    font-size: .75rem;
+    line-height: 1rem;
+    /* margin-right: 10px; */
   }
 }
 
-@media screen and (max-width: 320px) {
+/* @media screen and (max-width: 320px) {
   .button {
-    width: 88px;
-    height: 46px;
+    height: 18px;
   }
-}
+} */
