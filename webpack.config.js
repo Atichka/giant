@@ -2,6 +2,8 @@ const path = require('path');
 const MiniCssExtractPlugin = require("mini-css-extract-plugin"); // добавили плагин
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const WebpackMd5Hash = require('webpack-md5-hash');
+const webpack = require('webpack');
+
 module.exports = {
   entry: { main: './src/index.js' },
   output: {
@@ -18,8 +20,25 @@ module.exports = {
         }
       },
       {
-        test: /\.css$/,
-        use:  [MiniCssExtractPlugin.loader, 'css-loader', 'postcss-loader'] // добавили минификацию CSS
+        test: /\.css$/i,
+        use:  [
+          {
+            loader: MiniCssExtractPlugin.loader,
+            options: { publicPath: '../', },
+          },
+          {
+            loader: 'css-loader',
+            options: { importLoaders: 1 },
+          },
+          {
+            loader: 'postcss-loader',
+            options: {
+              config: {
+                path: __dirname + '/postcss.config.js'
+              }
+            },
+          },
+        ]
       },
       {
         test: /\.(png|jpe?g|gif|svg|ico)$/i,
@@ -49,13 +68,14 @@ module.exports = {
     ]
   },
   plugins: [
-    new MiniCssExtractPlugin({ //
-      filename: 'style.[contenthash].css',
+    new MiniCssExtractPlugin({
+      filename: './styles/style.[contenthash].css',
     }),
     new HtmlWebpackPlugin({
       inject: false,
       template: './src/index.html',
-      filename: 'index.html'
+      filename: 'index.html',
+      favicon: 'src/images/favicon.ico'
     }),
     new WebpackMd5Hash()
   ]

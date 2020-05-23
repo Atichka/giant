@@ -1,0 +1,7 @@
+.download__pic {
+  width: auto;
+  height: 100%;
+  background-color: rgba(245, 241, 241, 0.973);
+  /* border: 1px solid black; */
+  padding: 5%;
+}

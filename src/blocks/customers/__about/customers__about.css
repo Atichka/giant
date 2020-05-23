@@ -1,0 +1,6 @@
+.customers__about {
+  display: grid;
+  grid-template-columns: 70px auto;
+  grid-gap: 20px;
+  margin-top: 20px;
+}

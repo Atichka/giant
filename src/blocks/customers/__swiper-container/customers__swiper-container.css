@@ -1,0 +1,54 @@
+.customers__swiper-container {
+  position: relative;
+  display: flex;
+  margin-top: 64px;
+  height: 208px;
+}
+.customers__swiper-container::before {
+  left: 0;
+  background: linear-gradient(-90deg, rgba(245, 246, 247, 0) 0%, #F5F6F7 100%);
+}
+
+.customers__swiper-container::after {
+  right: 0;
+  background: linear-gradient(90deg, rgba(245, 246, 247, 0) 0%, #F5F6F7 100%);
+}
+
+.customers__swiper-container::after, .customers__swiper-container::before {
+  content: '';
+  width: 88px;
+  height: 208px;
+  position: absolute;
+  z-index: 2;
+}
+
+@media (min-width: 1024px) and (max-width: 1439px) {
+  .customers__swiper-container {
+    margin-top: 64px;
+    max-width: 924px;
+    max-height: 268px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .customers__swiper-container {
+    margin-top: 32px;
+    max-width: 672px;
+    max-height: 242px;
+  }
+}
+
+@media (min-width: 375px) and (max-width: 767px) {
+  .customers__swiper-container {
+    margin-top: 25px;
+    max-width: 290px;
+    max-height: 264px;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 374px) {
+  .customers__swiper-container {
+    margin-top: 16px;
+    max-width: 400px;
+  }
+}

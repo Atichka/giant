@@ -10,7 +10,7 @@
 </head>
 <body>
   <div class="page">
-    <section class="main">
+    <section class="main gradient">
       <header class="header">
         <a href="./index.html" class="header__logo">
           <img class="header__logo-pic" src="<%=require('./images/favicon.ico')%>" alt="Логотип">
@@ -130,20 +130,212 @@
     </section>
     <section class="buy">
       <div class="buy__text">
-        <h3 class="title">We've got the perfect package for you</h3>
+        <h3 class="title title__black">We've got the perfect package for you</h3>
         <p class="paragraph paragraph__grey">Everyone's reasons for learning user interface design, are different. If you're already a developer, or a PM, or a UX designer, why develop this totally separate skill?</p>
       </div>
       <div class="cards">
         <div class="card">
           <h4 class="card__title">Basic</h4>
-          <div class="card__figure">
-            <p class="card__price"></p>
+          <div class="card__square">
+            <div class="card__price">
+              <p class="card__valut">$</p>
+              <p class="card__cena">12.0</p>
+              <p class="card__month">/m</p>
+            </div>
           </div>
-          <p class=></p>
+          <p class="card__param paragraph__grey">One User</p>
+          <div class="line"></div>
+          <p class="card__param paragraph__grey">Multiple Access</p>
+          <div class="line"></div>
+          <p class="card__param paragraph__grey">SMS Support</p>
+          <div class="line"></div>
+          <p class="card__param paragraph__grey">24/7 Online Support</p>
+          <div class="card__buy">
+            <p class="card__param paragraph__grey">Start Free Trial</p>
+            <button class="card__button">Buy Now</button>
+          </div>
+        </div>
+        <div class="card">
+          <h4 class="card__title">Standard</h4>
+          <div class="card__square">
+            <div class="card__price">
+              <p class="card__valut">$</p>
+              <p class="card__cena">24.0</p>
+              <p class="card__month">/m</p>
+            </div>
+          </div>
+          <p class="card__param paragraph__grey">Five User</p>
+          <div class="line"></div>
+          <p class="card__param paragraph__grey">Multiple Access</p>
+          <div class="line"></div>
+          <p class="card__param paragraph__grey">SMS Support</p>
+          <div class="line"></div>
+          <p class="card__param paragraph__grey">24/7 Online Support</p>
+          <div class="card__buy">
+            <p class="card__param paragraph__grey">Start Free Trial</p>
+            <button class="card__button">Buy Now</button>
+          </div>
+        </div>
+        <div class="card">
+          <h4 class="card__title">Premium</h4>
+          <div class="card__square">
+            <div class="card__price">
+              <p class="card__valut">$</p>
+              <p class="card__cena">250.0</p>
+              <p class="card__month">/m</p>
+            </div>
+          </div>
+          <p class="card__param paragraph__grey">Twenty User</p>
+          <div class="line"></div>
+          <p class="card__param paragraph__grey">Multiple Access</p>
+          <div class="line"></div>
+          <p class="card__param paragraph__grey">SMS Support</p>
+          <div class="line"></div>
+          <p class="card__param paragraph__grey">24/7 Online Support</p>
+          <div class="card__buy">
+            <p class="card__param paragraph__grey">Start Free Trial</p>
+            <button class="card__button">Buy Now</button>
+          </div>
+        </div>
+        <div class="card">
+          <h4 class="card__title">Enterprise</h4>
+          <div class="card__square">
+            <div class="card__price">
+              <p class="card__valut">$</p>
+              <p class="card__cena">999.0</p>
+              <p class="card__month">/m</p>
+            </div>
+          </div>
+          <p class="card__param paragraph__grey">Unlimited User</p>
+          <div class="line"></div>
+          <p class="card__param paragraph__grey">Multiple Access</p>
+          <div class="line"></div>
+          <p class="card__param paragraph__grey">SMS Support</p>
+          <div class="line"></div>
+          <p class="card__param paragraph__grey">24/7 Online Support</p>
+          <div class="card__buy">
+            <p class="card__param paragraph__grey">Start Free Trial</p>
+            <button class="card__button">Buy Now</button>
+          </div>
         </div>
       </div>
     </section>
+    <section class="video">
+      <div class="video__iframes">
+        <iframe width="1440" height="315" src="https://www.youtube.com/embed/LVCZ_TCF3TM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture; modestbranding=1" allowfullscreen></iframe>
+      </div>
+    </section>
+    <section class="customers">
+      <div class="customers__text">
+        <h3 class="title">What our customers are saying</h3>
+        <p class="paragraph paragraph__grey">Everyone's reasons for learning user interface design, are different. If you're already a developer, or a PM, or a UX designer, why develop this totally separate skill?</p>
+      </div>
+      <!-- Slider main container -->
+      <div class="swiper-container customers__swiper-container">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper customers__swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide customers__swiper-slide">
+              <p class="paragraph paragraph__grey customers__paragraph">The JustLanded for WordPress theme is great, super easy to use and to customize and the support is just awesome: super fast and reliable.</p>
+              <div class="customers__about">
+                <img class="customer__pic" src="<%=require('./images/foto1.jpg')%>" alt="Фотография">
+                <div class="customer__text">
+                  <p class="customer__name">Alexandra Bullock</p>
+                  <p class="paragraph paragraph__grey customers__paragraph">Apple Inc.</p>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide customers__swiper-slide">
+              <p class="paragraph paragraph__grey customers__paragraph">Very happy with the theme and incredibly easy to configure, well done! I cannot empphasize how awesome this theme and developer support are.</p>
+              <div class="customers__about">
+                <img class="customer__pic" src="<%=require('./images/foto4.jpg')%>" alt="Фотография">
+                <div class="customer__text">
+                  <p class="customer__name">Gary Sebastian</p>
+                  <p class="paragraph paragraph__grey customers__paragraph">Apple Inc.</p>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide customers__swiper-slide">
+              <p class="paragraph paragraph__grey customers__paragraph">Definitely a great theme and fantastic. Customer support is numero uno and ShapingRain have got this spot on. Cheers guys.</p>
+              <div class="customers__about">
+                <img class="customer__pic" src="<%=require('./images/foto2.jpg')%>" alt="Фотография">
+                <div class="customer__text">
+                  <p class="customer__name">Samantha Bibau</p>
+                  <p class="paragraph paragraph__grey customers__paragraph">Apple Inc.</p>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide customers__swiper-slide">
+              <p class="paragraph paragraph__grey customers__paragrap">I cannot empphasize how awesome this theme and developer support are. Very happy with the theme and incredibly easy to configure, well done!</p>
+              <div class="customers__about">
+                <img class="customer__pic" src="<%=require('./images/foto3.jpg')%>" alt="Фотография">
+                <div class="customer__text">
+                  <p class="customer__name">Lily Potter</p>
+                  <p class="paragraph paragraph__grey customers__paragraph">Apple Inc.</p>
+                </div>
+              </div>
+            </div>
+        </div>
+        <!-- If we need pagination -->
+        <div class="swiper-pagination"></div>
+
+        <!-- If we need navigation buttons -->
+        <div class="customers__slider-control customers__button-prev gradient">
+          <div class="customers__control">&larr;</div>
+        </div>
+        <div class="customers__slider-control customers__button-next gradient">
+          <div class="customers__control">&rarr;</div>
+        </div>
+
+        <!-- If we need scrollbar -->
+        <div class="swiper-scrollbar"></div>
+      </div>
+    </section>
+    <section class="download gradient">
+      <h3 class="title title__white">Download Giant App Now</h3>
+      <div class="download__grid">
+        <button class="download__item">
+          <img class="download__pic" src="<%=require('./images/apple.ico')%>" alt="Гибкость">
+          <div class="download__text">
+            <h3 class="download__title">Download</h3>
+            <p class="paragraph paragraph__grey">Download from app store</p>
+          </div>
+        </button>
+        <button class="download__item">
+          <img class="download__pic" src="<%=require('./images/android.ico')%>" alt="Гибкость">
+          <div class="download__text">
+            <h3 class="download__title">Download</h3>
+            <p class="paragraph paragraph__grey">Download from app store</p>
+          </div>
+        </button>
+        <button class="download__item">
+          <img class="download__pic" src="<%=require('./images/windows.ico')%>" alt="Гибкость">
+          <div class="download__text">
+            <h3 class="download__title">Download</h3>
+            <p class="paragraph paragraph__grey">Download from microsoft store</p>
+          </div>
+        </button>
+      </div>
+    </section>
+    <footer class="footer">
+      <ul class="footer__list">
+				<li><a href="https://www.facebook.com" class="footer__links">
+						<img src="<%=require('./images/fb.png')%>" class="footer__icons" alt="Facebook">
+					</a></li>
+				<li><a href="https://twitter.com" class="footer__links">
+						<img src="<%=require('./images/twitter.png')%>" class="footer__icons" alt="Twitter">
+          </a></li>
+        <li><a href="https://yandex.ru" class="footer__links">
+						<img src="<%=require('./images/web.png')%>" class="footer__icons" alt="Twitter">
+          </a></li>
+          <li><a href="https://vk.com" class="footer__links">
+						<img src="<%=require('./images/vk.png')%>" class="footer__icons" alt="Twitter">
+					</a></li>
+      </ul>
+      <p class="paragraph paragraph__grey">Copyright &#169; | UXSEVEN - a sister concern of codepixar.com</p>
+    </footer>
   </div>
   <script src="<%= htmlWebpackPlugin.files.js %>"></script>
 </body>
 </html>
+

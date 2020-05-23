@@ -1,0 +1,7 @@
+@import url(./__list/footer__list.css);
+
+.footer {
+  text-align: center;
+  padding: 54px 160px 54px 200px;
+  background-color: black;
+}
