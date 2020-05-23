@@ -1,0 +1,9 @@
+.card__valut {
+  margin-top: 34px;
+  font-family: 'Roboto Bold', Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+
+  display: flex;
+  align-items: flex-start;
+}

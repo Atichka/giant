@@ -1,0 +1,11 @@
+.customers__slider-control {
+  width: 32px;
+  height: 32px;
+  position: absolute;
+  top: calc(50% - 16px);
+  background-position: center -6px;
+  border-radius: 50px;
+  z-index: 3;
+  border: 1px solid #cac9c9;
+  color: #cac9c9;
+}

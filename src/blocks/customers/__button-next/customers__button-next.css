@@ -1,0 +1,9 @@
+.customers__button-next {
+  right: 0;
+}
+
+@media screen and (max-width: 768px) {
+  .history__button-next {
+    display: none;
+  }
+}

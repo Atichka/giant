@@ -1,0 +1,7 @@
+.header__logo {
+  display: grid;
+  grid-template-columns: auto 150px;
+
+  text-decoration: none;
+	cursor: url(../../../images/Pointer.png), pointer;
+}

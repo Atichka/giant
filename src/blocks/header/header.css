@@ -1,0 +1,24 @@
+@import url(./__logo/header__logo.css);
+@import url(./__logo-pic/header__logo-pic.css);
+@import url(./__logo-text/header__logo-text.css);
+@import url(./__panel/header__panel.css);
+
+.header {
+  /* border: 1px solid black; */
+  max-width: 100%;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: space-between;
+  padding-top: 15px;
+  padding-right: 150px;
+  padding-bottom: 15px;
+}
+
+@media (min-width: 320px) and (max-width: 321) {
+  .header {
+    padding-right: 0;
+    /* display: block; */
+  }
+}

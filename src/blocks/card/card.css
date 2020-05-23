@@ -1,0 +1,14 @@
+@import url(./__title/card__title.css);
+@import url(./__square/card__square.css);
+@import url(./__price/card__price.css);
+@import url(./__cena/card__cena.css);
+@import url(./__valut/card__valut.css);
+@import url(./__month/card__month.css);
+@import url(./__param/card__param.css);
+@import url(./__buy/card__buy.css);
+@import url(./__button/card__button.css);
+
+.card {
+  max-width: 300px;
+  background-color: rgba(245, 241, 241, 0.973);
+}

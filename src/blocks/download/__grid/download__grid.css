@@ -1,0 +1,6 @@
+.download__grid {
+  margin-top: 60px;
+  display: grid;
+  grid-template-columns: repeat(3, 350px);
+  gap: 20px;
+}

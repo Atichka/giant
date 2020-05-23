@@ -1,0 +1,15 @@
+@import url(./__pic/main__pic.css);
+@import url(./__container/main__container.css);
+@import url(./__title/main__title.css);
+
+.main {
+  padding-left: 200px;
+  padding-bottom: 104px;
+}
+
+@media screen and (max-width: 320px) {
+  .main {
+    padding-left: 15px;
+    padding-bottom: 60px;
+  }
+}

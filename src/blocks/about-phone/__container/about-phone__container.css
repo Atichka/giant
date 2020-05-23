@@ -1,0 +1,5 @@
+.about-phone__container {
+  display: grid;
+  grid-template-columns: auto 500px;
+  gap: 100px;
+}

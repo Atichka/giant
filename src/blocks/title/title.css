@@ -1,0 +1,11 @@
+@import url(./__black/title__black.css);
+@import url(./__white/title__white.css);
+
+.title {
+  margin: 0 0 10px 0;
+  font-family: 'Roboto', Arial, Helvetica, sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 2rem;
+  line-height: 2.125rem;
+}

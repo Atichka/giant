@@ -1,0 +1,10 @@
+@import url(./__grid/download__grid.css);
+@import url(./__item/download__item.css);
+@import url(./__pic/download__pic.css);
+@import url(./__text/download__text.css);
+@import url(./__title/download__title.css);
+
+.download {
+  text-align: center;
+  padding: 104px 160px 104px 200px;
+}

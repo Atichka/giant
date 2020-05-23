@@ -1,0 +1,8 @@
+.about__grid {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  grid-column-gap: 20px;
+  grid-row-gap: 70px;
+  padding-bottom: 104px;
+  border-bottom: 1px solid rgb(202, 201, 201);
+}

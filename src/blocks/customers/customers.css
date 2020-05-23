@@ -1,0 +1,17 @@
+@import url(./__text/customers__text.css);
+@import url(./__swiper-slide/customers__swiper-slide.css);
+@import url(./__paragraph/customers__paragraph.css);
+@import url(./__about/customers__about.css);
+@import url(./__pic/customer__pic.css);
+@import url(./__name/customer__name.css);
+@import url(./__swiper-wrapper/customers__swiper-wrapper.css);
+@import url(./__slider-control/customers__slider-control.css);
+@import url(./__swiper-container/customers__swiper-container.css);
+@import url(./__control/customers__control.css);
+@import url(./__button-next/customers__button-next.css);
+@import url(./__button-prev/customers__button-prev.css);
+
+.customers {
+  text-align: center;
+  padding: 104px 150px 104px 200px;
+}
