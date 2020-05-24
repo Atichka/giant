@@ -23,18 +23,18 @@ const swiper = new Swiper('.swiper-container', {
   },
 })
 
-var reply_click = function()
-{
-  event.target.classList.toggle('gradient');
-}
-document.getElementById('0').onclick = reply_click;
-document.getElementById('1').onclick = reply_click;
-document.getElementById('2').onclick = reply_click;
-document.getElementById('3').onclick = reply_click;
+// var reply_click = function()
+// {
+//   event.target.classList.toggle('gradient');
+// }
+// document.getElementById('0').onclick = reply_click;
+// document.getElementById('1').onclick = reply_click;
+// document.getElementById('2').onclick = reply_click;
+// document.getElementById('3').onclick = reply_click;
 
 // buttonBuy.addEventListener('click', function() {
 //   alert(buttonBuy.id);
-  // event.target.classList.toggle('gradient');
+//   event.target.classList.toggle('gradient');
 // });
 
 // window.onload = function () {

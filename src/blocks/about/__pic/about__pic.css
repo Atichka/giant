@@ -5,3 +5,10 @@
   border: 1px solid rgb(202, 201, 201);
   padding: 25%;
 }
+
+@media screen and (max-width: 375px) {
+  .about__pic {
+    height: 100%;
+    padding: 0;
+  }
+}

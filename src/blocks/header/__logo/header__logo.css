@@ -1,7 +1,14 @@
 .header__logo {
   display: grid;
-  grid-template-columns: auto 150px;
+  grid-template-columns: auto auto;
+  gap: 5px;
 
   text-decoration: none;
 	cursor: url(../../../images/Pointer.png), pointer;
+}
+
+@media screen and (max-width: 1024px) {
+  .header__logo {
+    margin-right: 560px;
+  }
 }

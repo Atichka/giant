@@ -35,11 +35,24 @@
   -ms-text-size-adjust: 100%;
   -moz-text-size-adjust: 100%;
   text-rendering: optimizeLegibility;
+  max-width: 1440px;
 }
 
-@media screen and (max-width: 1440px) {
+@media screen and (max-width: 1024px) {
   .page {
-      min-width: 1440px;
+    max-width: 1024px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .page {
+      min-width: 768px;
+  }
+}
+
+@media screen and (max-width: 365px) {
+  .page {
+      min-width: 365px;
   }
 }
 

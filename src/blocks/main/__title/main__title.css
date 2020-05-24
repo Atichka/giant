@@ -6,3 +6,10 @@
   line-height: 2.5rem;
   color: #FFF;
 }
+
+@media screen and (max-width: 365px) {
+  .main__title {
+    font-size: 1rem;
+    line-height: 1.125rem;
+  }
+}

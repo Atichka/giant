@@ -1,12 +1,19 @@
 .main__container {
   display: grid;
-  grid-template-columns: auto 600px;
+  grid-template-columns: auto auto;
   grid-gap: 40px;
   /* border: 1px solid black; */
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 1280px) {
   .main__container {
-    grid-template-columns: 600px;
+    display: block;
+    margin-right: 150px;
+  }
+}
+
+@media screen and (max-width: 365px) {
+  .main__container {
+    margin-right: 100px;
   }
 }
