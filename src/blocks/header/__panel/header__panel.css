@@ -2,3 +2,22 @@
   display: flex;
   justify-content: space-between;
 }
+
+@media screen and (max-width: 1024px) {
+  .header__panel {
+    margin-top: 20px;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .header__panel {
+    margin-top: 10px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .header__panel {
+    margin-top: 5px;
+  }
+}

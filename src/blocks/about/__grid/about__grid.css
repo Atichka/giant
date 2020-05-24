@@ -3,6 +3,24 @@
   grid-template-columns: repeat(3, auto);
   grid-column-gap: 20px;
   grid-row-gap: 70px;
-  padding-bottom: 104px;
-  border-bottom: 1px solid rgb(202, 201, 201);
+}
+
+@media screen and (max-width: 1430px) {
+  .about__grid {
+    grid-template-columns: repeat(2, auto);
+  }
+}
+
+@media screen and (max-width: 1065px) {
+  .about__grid {
+    grid-template-columns: auto auto;
+    gap: 18px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .about__grid {
+    grid-template-columns: auto;
+    gap: 18px;
+  }
 }

@@ -20,4 +20,5 @@
 @import url(./blocks/download/download.css);
 @import url(./blocks/footer/footer.css);
 @import url(../node_modules/swiper/css/swiper.min.css);
+@import url(./blocks/container/container.css);
 

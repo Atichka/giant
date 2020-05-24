@@ -1,5 +1,19 @@
 .about-phone__container {
   display: grid;
-  grid-template-columns: auto 500px;
+  grid-template-columns: auto auto;
   gap: 100px;
+}
+
+@media screen and (max-width: 1280px) {
+  .about-phone__container {
+    grid-template-columns: auto auto;
+    gap: 50px
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .about-phone__container {
+    grid-template-columns: auto;
+    gap: 30px
+  }
 }

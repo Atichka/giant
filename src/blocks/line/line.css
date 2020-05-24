@@ -1,5 +1,2 @@
-.line {
-  border-bottom: 1px dashed rgb(202, 201, 201);
-  margin-left: 30px;
-  margin-right: 30px;
-}
+@import url(./__dashes/line__dashes.css);
+@import url(./__solid/line__solid.css);
